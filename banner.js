@@ -1,15 +1,5 @@
 // 1. 스타일 삽입
 const style = document.createElement('style');
-style.textContent = 
-  #banner-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    background-color: transparent;
-  }
-
 style.textContent = `
   #banner-container {
     display: flex;
@@ -53,7 +43,6 @@ style.textContent = `
     }
   }
 `;
-
 document.head.appendChild(style);
 
 // 2. 배너 데이터
