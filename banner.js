@@ -10,6 +10,16 @@ style.textContent =
     background-color: transparent;
   }
 
+style.textContent = `
+  #banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+  }
+
   .banner {
     flex: 0 1 calc(25% - 10px);
     max-width: calc(25% - 10px);
@@ -42,7 +52,8 @@ style.textContent =
       max-width: 100%;
     }
   }
-;
+`;
+
 document.head.appendChild(style);
 
 // 2. 배너 데이터
