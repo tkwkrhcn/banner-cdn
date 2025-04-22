@@ -1,6 +1,6 @@
 // 1. 스타일 삽입
 const style = document.createElement('style');
-style.textContent = `
+style.textContent = 
   #banner-container {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@ style.textContent = `
       max-width: 100%;
     }
   }
-`;
+;
 document.head.appendChild(style);
 
 // 2. 배너 데이터
@@ -81,7 +81,10 @@ function shuffle(array) {
 shuffle(banners);
 
 // 4. 최종 배열 만들기
-const finalBanners = [...banners, wideBanner, ...fixedBanners];
+const finalBanners = [...banners];
+const insertIndex = Math.floor(Math.random() * (finalBanners.length + 1));
+finalBanners.splice(insertIndex, 0, wideBanner);
+finalBanners.push(...fixedBanners);
 
 // 5. 배너 렌더링
 const bannerContainer = document.getElementById('banner-container');
