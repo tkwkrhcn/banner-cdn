@@ -1,4 +1,3 @@
-
 // 1. 스타일 삽입
 const style = document.createElement('style');
 style.textContent = `
@@ -10,6 +9,7 @@ style.textContent = `
     padding: 10px;
     background-color: transparent;
   }
+
   .banner {
     flex: 0 1 calc(25% - 10px);
     max-width: calc(25% - 10px);
@@ -17,25 +17,35 @@ style.textContent = `
     border: 1px solid #444;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
+
   .banner img {
     width: 100%;
     height: auto;
     display: block;
   }
+
+  .wide-banner {
+    flex: 0 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+
   @media (max-width: 768px) {
     .banner {
       flex: 0 1 calc(50% - 10px);
       max-width: calc(50% - 10px);
     }
+
+    .wide-banner {
+      flex: 0 1 100%;
+      max-width: 100%;
+    }
   }
 `;
 document.head.appendChild(style);
 
-// 2. 배너 로직
-const bannerContainer = document.getElementById('banner-container');
-
+// 2. 배너 데이터
 const fixedBanners = [
   { url: "https://xn--vy7ba476b.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/c4352a78-3a5f-42ce-5255-5f9be9ced200/public" },
   { url: "https://xn--p49al7tolbl8o8tj.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ff2d6728-7523-4452-bd48-ecdb8072a600/public" },
@@ -54,16 +64,27 @@ const banners = [
   { url: "https://opview74.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" }
 ];
 
+// 와이드 배너 (600x100)
+const wideBanner = {
+  url: "https://xn--2j5b2zz4c.net/",
+  img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d20a69f9-c32f-446c-a21e-6d786777a700/public",
+  wide: true
+};
+
+// 3. 랜덤 섞기
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
-
 shuffle(banners);
-const finalBanners = [...banners, ...fixedBanners];
 
+// 4. 최종 배열 만들기
+const finalBanners = [...banners, wideBanner, ...fixedBanners];
+
+// 5. 배너 렌더링
+const bannerContainer = document.getElementById('banner-container');
 finalBanners.forEach(banner => {
   const a = document.createElement('a');
   a.href = banner.url;
@@ -76,6 +97,7 @@ finalBanners.forEach(banner => {
 
   const div = document.createElement('div');
   div.className = 'banner';
+  if (banner.wide) div.classList.add('wide-banner');
 
   a.appendChild(img);
   div.appendChild(a);
