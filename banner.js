@@ -61,7 +61,7 @@ const banners = [
   { url: "http://xn--h11by6u74e3oi.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/215a25ab-4b50-4157-0202-e77deb83b300/public" },
   { url: "http://xn--2i0ba424pba.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/89fb37c7-9e2f-4d87-fbd3-00d13a413500/public" },
   { url: "https://jp12t4.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/a123d6e8-bce9-4e40-32e3-ea195f1e7b00/public" },
-  { url: "https://opview75.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" }
+  { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" }
 ];
 
 // 와이드 배너 (600x100)
