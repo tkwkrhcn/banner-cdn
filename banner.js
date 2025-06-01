@@ -35,6 +35,7 @@
 </style>
 
 <script>
+document.addEventListener("DOMContentLoaded", function () {
   const fixedBanners = [
     { url: "https://xn--vy7ba476b.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/c4352a78-3a5f-42ce-5255-5f9be9ced200/public" },
     { url: "https://xn--p49al7tolbl8o8tj.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/ff2d6728-7523-4452-bd48-ecdb8072a600/public" },
@@ -64,6 +65,11 @@
   const finalBanners = [...banners, ...fixedBanners];
 
   const bannerContainer = document.getElementById('banner-container');
+  if (!bannerContainer) {
+    console.error("❌ banner-container가 HTML에 없습니다.");
+    return;
+  }
+
   finalBanners.forEach(banner => {
     const a = document.createElement('a');
     a.href = banner.url;
@@ -73,6 +79,7 @@
     const img = document.createElement('img');
     img.src = banner.img;
     img.alt = "Banner";
+    img.onerror = () => console.error("❌ 이미지 로딩 실패:", img.src);
 
     const div = document.createElement('div');
     div.className = 'banner';
@@ -81,4 +88,7 @@
     div.appendChild(a);
     bannerContainer.appendChild(div);
   });
+
+  console.log("✅ 배너 삽입 완료");
+});
 </script>
