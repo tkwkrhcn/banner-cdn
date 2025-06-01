@@ -1,3 +1,4 @@
+<script>
 // 1. 스타일 삽입
 const style = document.createElement('style');
 style.textContent = `
@@ -26,20 +27,10 @@ style.textContent = `
     display: block;
   }
 
-  .wide-banner {
-    flex: 0 1 calc(50% - 10px);
-    max-width: calc(50% - 10px);
-  }
-
   @media (max-width: 768px) {
     .banner {
       flex: 0 1 calc(50% - 10px);
       max-width: calc(50% - 10px);
-    }
-
-    .wide-banner {
-      flex: 0 1 100%;
-      max-width: 100%;
     }
   }
 `;
@@ -64,13 +55,6 @@ const banners = [
   { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" }
 ];
 
-// 와이드 배너 (600x100)
-const wideBanner = {
-  url: "https://xn--2j5b2zz4c.net/",
-  img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/d20a69f9-c32f-446c-a21e-6d786777a700/public",
-  wide: true
-};
-
 // 3. 랜덤 섞기
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -80,11 +64,8 @@ function shuffle(array) {
 }
 shuffle(banners);
 
-// 4. 최종 배열 만들기
-const finalBanners = [...banners];
-const insertIndex = Math.floor(Math.random() * (finalBanners.length + 1));
-finalBanners.splice(insertIndex, 0, wideBanner);
-finalBanners.push(...fixedBanners);
+// 4. 최종 배열 만들기 (와이드 배너 제거)
+const finalBanners = [...banners, ...fixedBanners];
 
 // 5. 배너 렌더링
 const bannerContainer = document.getElementById('banner-container');
@@ -100,9 +81,9 @@ finalBanners.forEach(banner => {
 
   const div = document.createElement('div');
   div.className = 'banner';
-  if (banner.wide) div.classList.add('wide-banner');
 
   a.appendChild(img);
   div.appendChild(a);
   bannerContainer.appendChild(div);
 });
+</script>
