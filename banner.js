@@ -1,7 +1,6 @@
-<script>
 // 1. 스타일 삽입
 const style = document.createElement('style');
-style.textContent = `
+style.textContent = 
   #banner-container {
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +32,7 @@ style.textContent = `
       max-width: calc(50% - 10px);
     }
   }
-`;
+;
 document.head.appendChild(style);
 
 // 2. 배너 데이터
@@ -64,8 +63,11 @@ function shuffle(array) {
 }
 shuffle(banners);
 
-// 4. 최종 배열 만들기 (와이드 배너 제거)
-const finalBanners = [...banners, ...fixedBanners];
+// 4. 최종 배열 만들기
+const finalBanners = [...banners];
+const insertIndex = Math.floor(Math.random() * (finalBanners.length + 1));
+finalBanners.splice(insertIndex, 0, wideBanner);
+finalBanners.push(...fixedBanners);
 
 // 5. 배너 렌더링
 const bannerContainer = document.getElementById('banner-container');
@@ -81,9 +83,9 @@ finalBanners.forEach(banner => {
 
   const div = document.createElement('div');
   div.className = 'banner';
+  if (banner.wide) div.classList.add('wide-banner');
 
   a.appendChild(img);
   div.appendChild(a);
   bannerContainer.appendChild(div);
 });
-</script>
