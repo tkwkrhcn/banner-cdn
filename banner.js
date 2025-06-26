@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://www.kcasinojoin.com/?a=53625", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/5f552e98-695e-4df4-473d-6a5c32e74a00/public" },
     { url: "https://www.bet38join.com/?a=40381", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/bff71d34-5f5a-42a9-41c8-9bdd43229200/public" },
     { url: "https://jp12t4.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/a123d6e8-bce9-4e40-32e3-ea195f1e7b00/public" },
+    { url: "http://nrt-113.com", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d81a9918-16f3-4afe-fc7c-25310bcf9700/public" },
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" }
   ];
 
