@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
     { url: "https://oplove28.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/6536c668-239d-4bef-4651-76adeafa7e00/public" },
     { url: "https://s-j07.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/90a49f9a-30b5-4517-cc29-0cbf99fdc500/public" },
+    { url: "https://wja89.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/5778e9c3-4c56-4de7-4c97-33a86c618900/public" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" }
   ];
 
