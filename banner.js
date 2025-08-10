@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://jp12t4.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/a123d6e8-bce9-4e40-32e3-ea195f1e7b00/public" },
     { url: "http://nrt-113.com", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d81a9918-16f3-4afe-fc7c-25310bcf9700/public" },
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
-    { url: "https://s-j07.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/90a49f9a-30b5-4517-cc29-0cbf99fdc500/public" },
+    { url: "https://s-j07.com/", img: "https://imgur.com/JmMtKAP" },
     { url: "https://wja89.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/5778e9c3-4c56-4de7-4c97-33a86c618900/public" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" }
   ];
