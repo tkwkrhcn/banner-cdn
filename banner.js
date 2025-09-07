@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const banners = [
     { url: "https://m-opgo.com/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/42adcbce-2231-4973-8e14-0ee48c8b3f00/public" },
     { url: "https://aha-o300.com/", img: "https://imagedelivery.net/YBuUVvHrWBzVF83Na77hDQ/ef33775e-5535-44d3-7638-9e6a0eaf6b00/public" },
-    { url: "https://jp12t4.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/a123d6e8-bce9-4e40-32e3-ea195f1e7b00/public" },
+    { url: "https://jp12t4.com/", img: "https://imgur.com/SWjdiLE.gif" },
     { url: "http://nrt-113.com", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d81a9918-16f3-4afe-fc7c-25310bcf9700/public" },
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
     { url: "https://s-j07.com/", img: "https://imgur.com/JmMtKAP.gif" },
