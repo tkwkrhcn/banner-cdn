@@ -56,7 +56,6 @@ const banners = [
   { url: "https://zxx.bet/Main?agentCode=8415", img: "https://avhot-6969.com/da/01K8MJBF7PGB9N5B01T74C7ZJ6.gif" }
 ];
 
-  ];
 
   // 3. 랜덤 섞기
   function shuffle(array) {
