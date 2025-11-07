@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://aha-o300.com/", img: "https://imgur.com/U6BsQbf.gif" },
     { url: "https://jp12t4.com/", img: "https://imgur.com/SWjdiLE.gif" },
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
-    { url: "https://gt206.com/", img: "https://imgur.com/h8ZScoC.gif" },
+    { url: "https://s-j07.com/", img: "https://imgur.com/h8ZScoC.gif" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" },
     { url: "https://lula.asia/Main?agentCode=8062", img: "https://avhot-6969.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
     { url: "https://onetop.space/Main?agentCode=4602", img: "https://avhot-6969.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
