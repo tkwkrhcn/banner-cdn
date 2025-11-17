@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
     { url: "https://s-j07.com/", img: "https://imgur.com/h8ZScoC.gif" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" },
-    { url: "https://lula.asia/Main?agentCode=8062", img: "https://avhot-root.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
-    { url: "https://onetop.space/Main?agentCode=4602", img: "https://avhot-root.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
-    { url: "https://1bet1.one/?regcode=4567", img: "https://avhot-root.com/da/01K8MJ8Q2JJH0QJX0NPMWY61NG.gif" },
-    { url: "https://zxx.bet/Main?agentCode=8415", img: "https://avhot-root.com/da/01K8MJBF7PGB9N5B01T74C7ZJ6.gif" }
+    { url: "https://lula.asia/Main?agentCode=8062", img: "https://imgur.com/ekLT7hq.gif" },
+    { url: "https://onetop.space/Main?agentCode=4602", img: "https://imgur.com/a8nmpkc.gif" },
+    { url: "https://1bet1.one/?regcode=4567", img: "https://imgur.com/Y1SNZl5.gif" },
+    { url: "https://zxx.bet/Main?agentCode=8415", img: "https://imgur.com/lyKWUwz.gif" }
   ];
 
   // 3. 랜덤 섞기
