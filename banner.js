@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const banners = [
     { url: "https://m-opgo.com/", img: "https://imgur.com/FMHlKQh.gif" },
     { url: "https://aha-o300.com/", img: "https://imgur.com/U6BsQbf.gif" },
-    { url: "https://opview76.com/", img: "https://imagedelivery.net/hn8cyNBhDj7fHt_rfVXsFQ/f035c716-5ed6-4d68-2896-fe07c463c300/public" },
     { url: "https://s-j07.com/", img: "https://imgur.com/h8ZScoC.gif" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" }
   ];
