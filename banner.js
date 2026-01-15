@@ -45,7 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const banners = [
     { url: "https://m-opgo.com/", img: "https://imgur.com/FMHlKQh.gif" },
     { url: "https://aha-o300.com/", img: "https://imgur.com/U6BsQbf.gif" },
-    { url: "https://s-j07.com/", img: "https://imgur.com/h8ZScoC.gif" },
+    { url: "https://1bet1.one/?regcode=4567", img: "https://soranet3.com/da/01K8MJ8Q2JJH0QJX0NPMWY61NG.gif" },
+    { url: "https://zxx.bet/Main?agentCode=8415", img: "https://soranet3.com/da/01K8MJBF7PGB9N5B01T74C7ZJ6.gif" },
+    { url: "https://lula.asia/Main?agentCode=8062", img: "https://soranet3.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
+    { url: "https://onetop.space/Main?agentCode=4602", img: "https://soranet3.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
+    { url: "https://opview78.com/", img: "https://soranet3.com/da/01KF0C8RM3VJJ9K66JBPR2T65S.webp" },
     { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" }
   ];
 
