@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const banners = [
     { url: "https://m-opgo.com/", img: "https://imgur.com/FMHlKQh.gif" },
-    { url: "https://aha-nmax.com/", img: "https://imgur.com/U6BsQbf.gif" },
+    { url: "https://aha-bbc.com/", img: "https://imgur.com/U6BsQbf.gif" },
     { url: "https://1bet1.one/?regcode=4567", img: "https://soranet3.com/da/01K8MJ8Q2JJH0QJX0NPMWY61NG.gif" },
     { url: "https://zxx.bet/Main?agentCode=8415", img: "https://soranet3.com/da/01K8MJBF7PGB9N5B01T74C7ZJ6.gif" },
     { url: "https://lula.asia/Main?agentCode=8062", img: "https://soranet3.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
