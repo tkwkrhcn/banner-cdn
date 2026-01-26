@@ -50,7 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://lula.asia/Main?agentCode=8062", img: "https://soranet3.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
     { url: "https://onetop.space/Main?agentCode=4602", img: "https://soranet3.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
     { url: "https://opview78.com/", img: "https://soranet3.com/da/01KF0C8RM3VJJ9K66JBPR2T65S.webp" },
-    { url: "https://bcvip1.com/", img: "https://imagedelivery.net/qv2gIkABq4Cpu3cwbEEy-g/d5094907-1a96-40e5-d130-9ce7c2ef3100/public" }
+    { url: "https://jk-357.com /", img: "https://soranet3.com/da/01KFWHNCS9DN9Q2K9Z7BQVK38Z.gif" },
+    { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" }
   ];
 
   // 3. 랜덤 섞기
