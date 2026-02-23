@@ -51,7 +51,12 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://onetop.space/Main?agentCode=4602", img: "https://soranet3.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
     { url: "https://opview78.com/", img: "https://soranet3.com/da/01KF0C8RM3VJJ9K66JBPR2T65S.webp" },
     { url: "http://jk-357.com/", img: "https://soranet3.com/da/01KFWHNCS9DN9Q2K9Z7BQVK38Z.gif" },
-    { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" }
+    { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" },
+    { url: "https://sv-vvv.com/", img: "https://soranet3.com/da/01KJ4DJ73EJMQH1165KS02MZXD.gif" },
+    { url: "https://sm-mmm.com/", img: "https://soranet3.com/da/01KJ4DKFP278CFE9EPEJGYBZN7.gif" },
+    { url: "http://mco-ccc.com/", img: "https://soranet3.com/da/01KJ4DM5516R1TKGD0X978RW0N.gif" },
+    { url: "http://spst-ddd.com/", img: "https://soranet3.com/da/01KJ4DMZ72T65Y311XEQ590MV6.gif" },
+    { url: "https://mnb-bbb.com/", img: "https://soranet3.com/da/01KJ4DP2MTX403E6EQEHX8MDHY.gif" }
   ];
 
   // 3. 랜덤 섞기
