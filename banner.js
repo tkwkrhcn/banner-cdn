@@ -45,10 +45,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const banners = [
     { url: "https://mul-exid.com/", img: "https://imgur.com/FMHlKQh.gif" },
     { url: "https://aha-bbc.com/", img: "https://imgur.com/U6BsQbf.gif" },
-    { url: "https://1bet1.one/?regcode=4567", img: "https://soranet3.com/da/01K8MJ8Q2JJH0QJX0NPMWY61NG.gif" },
-    { url: "https://zxx.bet/Main?agentCode=8415", img: "https://soranet3.com/da/01K8MJBF7PGB9N5B01T74C7ZJ6.gif" },
-    { url: "https://lula.asia/Main?agentCode=8062", img: "https://soranet3.com/da/01K8MJCMAFJSCPRKMTC21S3RVT.gif" },
-    { url: "https://onetop.space/Main?agentCode=4602", img: "https://soranet3.com/da/01K8MJEMRR238MXVAYF6MJBGF9.gif" },
+    { url: "https://uw-07.com/?ref=SORA/", img: "https://soranet3.com/da/01KMSACVW5NMMP1Y8AEK1MYTJE.jpg" },
+    { url: "https://soom-77.com/", img: "https://soranet3.com/da/01KNB90419BSRTBZNF6RBM7D17.gif" },
     { url: "https://opview78.com/", img: "https://soranet3.com/da/01KF0C8RM3VJJ9K66JBPR2T65S.webp" },
     { url: "http://jk-357.com/", img: "https://soranet3.com/da/01KFWHNCS9DN9Q2K9Z7BQVK38Z.gif" },
     { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" },
