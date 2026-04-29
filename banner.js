@@ -52,8 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://sv-vvv.com/", img: "https://soranet3.com/da/01KJ4DJ73EJMQH1165KS02MZXD.gif" },
     { url: "https://sm-mmm.com/", img: "https://soranet3.com/da/01KJ4DKFP278CFE9EPEJGYBZN7.gif" },
     { url: "http://mco-ccc.com/", img: "https://soranet3.com/da/01KJ4DM5516R1TKGD0X978RW0N.gif" },
-    { url: "http://pmu777.com/", img: "https://soranet3.com/da/01KQ97XAJKR5MSRWPTN6N9JCEB.gif" },
-    { url: "https://mnb-bbb.com/", img: "https://soranet3.com/da/01KJ4DP2MTX403E6EQEHX8MDHY.gif" }
+    { url: "https://eazyb-10.com/EAD0229", img: "https://soranet3.com/da/01KQCBP453FEBYW7HCPMGDK5ZV.gif" }
   ];
 
   // 3. 랜덤 섞기
