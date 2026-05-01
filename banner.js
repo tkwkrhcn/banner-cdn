@@ -45,14 +45,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const banners = [
     { url: "https://mul-exid.com/", img: "https://imgur.com/FMHlKQh.gif" },
     { url: "https://aha-bbc.com/", img: "https://imgur.com/U6BsQbf.gif" },
-    { url: "https://uw-07.com/?ref=SORA/", img: "https://soranet3.com/da/01KMSACVW5NMMP1Y8AEK1MYTJE.jpg" },
-    { url: "https://opview78.com/", img: "https://soranet3.com/da/01KF0C8RM3VJJ9K66JBPR2T65S.webp" },
-    { url: "http://jk-357.com/", img: "https://soranet3.com/da/01KFWHNCS9DN9Q2K9Z7BQVK38Z.gif" },
-    { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" },
-    { url: "https://sv-vvv.com/", img: "https://soranet3.com/da/01KJ4DJ73EJMQH1165KS02MZXD.gif" },
-    { url: "https://sm-mmm.com/", img: "https://soranet3.com/da/01KQCE50721T523NDTGW1CCCNE.gif" },
+    { url: "https://uw-07.com/?ref=SORA/", img: "https://imgur.com/uCN54s6.jpg" },
+    { url: "https://opview78.com/", img: "https://imgur.com/Ljiztjm.webp" },
+    { url: "http://jk-357.com/", img: "https://imgur.com/ts1SwFy.gif" },
+    { url: "https://bk-777.com/", img: "https://imgur.com/50hjgfG.gif" },
+    { url: "https://sv-vvv.com/", img: "https://imgur.com/fCzhAJF.gif" },
+    { url: "https://sm-mmm.com/", img: "https://imgur.com/ytn0Z8x.gif" },
     { url: "http://mco-ccc.com/", img: "https://imgur.com/wupIJq9.gif" },
-    { url: "https://eazyb-10.com/EAD0229", img: "https://soranet3.com/da/01KQCBP453FEBYW7HCPMGDK5ZV.gif" }
+    { url: "https://eazyb-10.com/EAD0229", img: "https://imgur.com/vf8e0QT.gif" }
   ];
 
   // 3. 랜덤 섞기
