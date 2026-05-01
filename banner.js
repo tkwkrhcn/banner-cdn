@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://bk-777.com/", img: "https://soranet3.com/da/01KFWHMTGJ2TP2YPV7HDP0T81J.gif" },
     { url: "https://sv-vvv.com/", img: "https://soranet3.com/da/01KJ4DJ73EJMQH1165KS02MZXD.gif" },
     { url: "https://sm-mmm.com/", img: "https://soranet3.com/da/01KQCE50721T523NDTGW1CCCNE.gif" },
-    { url: "http://mco-ccc.com/", img: "https://soranet3.com/da/01KJ4DM5516R1TKGD0X978RW0N.gif" },
+    { url: "http://mco-ccc.com/", img: "https://imgur.com/wupIJq9.gif" },
     { url: "https://eazyb-10.com/EAD0229", img: "https://soranet3.com/da/01KQCBP453FEBYW7HCPMGDK5ZV.gif" }
   ];
 
