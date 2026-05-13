@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { url: "https://mul-exid.com/", img: "https://imgur.com/FMHlKQh.gif" },
     { url: "https://aha-bbc.com/", img: "https://imgur.com/U6BsQbf.gif" },
     { url: "https://uw-07.com/?ref=SORA/", img: "https://imgur.com/uCN54s6.jpg" },
-    { url: "https://opview78.com/", img: "https://imgur.com/Ljiztjm.gif" },
+    { url: "https://opview81.com/", img: "https://imgur.com/Ljiztjm.gif" },
     { url: "http://jk-357.com/", img: "https://imgur.com/ts1SwFy.gif" },
     { url: "https://bk-777.com/", img: "https://imgur.com/50hjgfG.gif" },
     { url: "https://sv-vvv.com/", img: "https://imgur.com/fCzhAJF.gif" },
